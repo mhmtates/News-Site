@@ -113,16 +113,16 @@ p {
 .m-4{margin: 1rem;}
 
  
-/* navbar */
+/* header */
 
-header #main-navbar{
+.header #main-navbar{
     background-color: #fff;
     position: sticky;
     top: 0;
     z-index: 2;
 }
 
-header #main-navbar .container{
+ #main-navbar .container{
     display: grid;
     grid-template-columns: 0.6fr 3fr 2fr;
     align-items: center;
