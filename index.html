@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News Site</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="/css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
 </head>
 
 <body>
@@ -18,10 +20,10 @@
             <div class="container p-4">
                 <img src="img/logo.png" alt="Logo" class="logo">
                 <ul>
-                    <li><a href="/index.html"> Home </a></li>
-                    <li><a href="/about.html">About </a></li>
-                    <li><a href="/blog.html">Blog </a></li>
-                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a class="active p-2" href="/index.html"> Home </a></li>
+                    <li><a href="/article.html">News </a></li>
+                    <li><a href="#">Blog </a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
                 <div class="social-icons">
                     <a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
@@ -36,19 +38,127 @@
 
     <!-- main -->
     <main>
-        <section class="section-top">
+        <section id="section-top">
             <div class="container">
                 <div class="section-top-container">
                     <div class="content">
-                        <img src="img/rowing.jpeg" alt="Rowing Image">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate recusandae ratione
-                            mollitia saepe dolorum excepturi iure perferendis odio officia numquam sunt, quod
-                            consequuntur a obcaecati tenetur unde voluptates minima inventore!</p>
+                        <div class="category category-sport">Sports</div>
+                        <h1>World Rowing Race</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, nulla. Quo optio facilis
+                            aut ratione rem architecto laborum odit eos adipisci sequi asperiores, minus aliquid
+                            repellat exercitationem, quae ad. Sapiente.</p>
+                        <a href="" class="btn btn-primary">Read More</a>
                     </div>
                 </div>
             </div>
         </section>
+        <section id="text" class="section-bottom">
+            <div class="container">
+                <h2>Latest News</h2>
+                <div class="text-container">
+                    <article class="card">
+                        <img src="/img/img-1.webp" alt="">
+                        <div>
+                            <div class="category category-sport">Sports</div>
+                            <h3><a href="article.html">Lorem ipsum dolor sit amet.</a></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ipsum provident rerum
+                            voluptatum minus! Possimus praesentium aut quo veritatis voluptas. Deleniti debitis
+                            assumenda iusto aspernatur sed excepturi, atque hic molestias?</p>
+                    </article>
+                    <article class="card">
+                        <img src="/img/img-2.webp" alt="">
+                        <div>
+                            <div class="category category-economy">Economy</div>
+                            <h3><a href="article.html">Lorem ipsum dolor sit amet.</a></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ipsum provident rerum
+                            voluptatum minus! Possimus praesentium aut quo veritatis voluptas. Deleniti debitis
+                            assumenda iusto aspernatur sed excepturi, atque hic molestias?</p>
+                    </article>
+                    <article class="card">
+                        <img src="/img/img-3.webp" alt="">
+                        <div>
+                            <div class="category category-health">Health</div>
+                            <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ipsum provident rerum
+                            voluptatum minus! Possimus praesentium aut quo veritatis voluptas. Deleniti debitis
+                            assumenda iusto aspernatur sed excepturi, atque hic molestias?</p>
+                    </article>
+                    <article class="card">
+                        <img src="/img/img-2.webp" alt="">
+                        <div>
+                            <div class="category category-sport">Sports</div>
+                            <h3><a href="article.html">Lorem ipsum dolor sit amet.</a></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ipsum provident rerum
+                            voluptatum minus! Possimus praesentium aut quo veritatis voluptas.Deleniti debitis assumenda iusto aspernatur sed excepturi,atque hic molestias?</p>
+                    </article>
+                    <article class="card">
+                        <img src="/img/img-1.webp" alt="">
+                        <div>
+                            <div class="category category-health">Health</div>
+                            <h3><a href="article.html">Lorem ipsum dolor sit amet.</a></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ipsum provident rerum
+                            voluptatum minus! Possimus praesentium aut quo veritatis voluptas. Deleniti debitis
+                            assumenda iusto aspernatur sed excepturi, atque hic molestias?</p>
+                    </article>
+                    <article class="card">
+                        <img src="/img/img-3.webp" alt="">
+                        <div>
+                            <div class="category category-sport">Sports</div>
+                            <h3><a href="article.html">Lorem ipsum dolor sit amet.</a></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ipsum provident rerum
+                            voluptatum minus! Possimus praesentium aut quo veritatis voluptas. Deleniti debitis
+                            assumenda iusto aspernatur sed excepturi, atque hic molestias?</p>
+                    </article>
+                </div>
+            </div>
+            </div>
+        </section>
     </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="py-5">
+        <div class="container footer-container">
+            <div>
+                <img src="/img/logo.png" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum molestias mollitia iste odit natus,
+                    harum itaque porro, quia vitae sequi nam exercitationem. Doloribus facere, minus sint asperiores
+                    explicabo aspernatur quisquam?</p>
+            </div>
+            <div>
+                <h3>Join Us</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ipsam nostrum ut inventore
+                    facere architecto? Totam voluptate ipsa cupiditate repudiandae!.</p>
+                <form action="">
+                    <input type="email" placeholder="Enter your email">
+                    <input type="submit" value="Subscribe" class="btn btn-primary">
+                </form>
+            </div>
+            <div>
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#">Help &Support</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Follow Us</h3>
+                <div>
+                    <a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter fa-2xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube fa-2xl"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2024, All Rights Reserved</p>
+            </div>
+
+        </div>
+
+    </footer>
+
 </body>
 
 </html>

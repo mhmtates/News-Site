@@ -1,0 +1,51 @@
+#main-navbar .social-icons {
+    display: none;
+}
+
+#main-navbar .container {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+}
+
+#main-navbar img,
+#main-navbar ul {
+    justify-self: center;
+}
+
+#section-top .section-top-container {
+    grid-template-columns: 1fr;
+}
+
+#text .text-container {
+    grid-template-columns: repeat(2,1fr);
+}
+
+#footer .footer-container {
+    grid-template-columns: repeat(2,1fr);
+}
+
+#footer .footer-container .copyright{
+    grid-column: 1 /span 2;
+}
+
+#article .page-container{
+    grid-template-columns: 1fr;
+}
+
+/* 600px için responsive kodlar */
+
+@media(max-width:600px) {
+
+    #text .text-container {
+        grid-template-columns: 1fr;
+    }
+
+    #footer .footer-container {
+        grid-template-columns: 1fr;
+    }
+    
+    #footer .footer-container .copyright{
+        grid-column: 1;
+    }
+}
+
