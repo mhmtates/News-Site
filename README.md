@@ -1,3 +1,3 @@
 **News Site** 
 ---------------------------
-**Digiway Akademi** **Front-End** eğitiminde **grid** yapısını kullanarak yapmış olduğumuz örnek bir haber sitesidir.
+Grid yapısını kullanarak yapmış olduğum bir haber sitesidir.
